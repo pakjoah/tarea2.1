@@ -1,0 +1,36 @@
+h1 {
+  color: #9b59b6;
+}
+
+p {
+  font-size: 16px;
+  font-family: Verdana;
+  font-style: italic;
+}
+
+.sub-header {
+  color: #2980b9;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #2980b9;
+}
+
+h1::before {
+  content: "Topic: ";
+}
+
+.challenge2 {
+  background-color: gray;
+  background-image: linear-gradient(
+    transparent 50%,
+    rgba(255, 255, 255, 0.5) 50%
+  );
+  background-size: 50px 50px;
+  padding-left: 10%;
+}
+
+h1:first-child {
+  text-align: center;
+}
